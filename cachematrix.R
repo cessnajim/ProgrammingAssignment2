@@ -37,4 +37,15 @@ cacheSolve <- function(x, ...) {
 }
 
 
-
+####################################
+## Test Code
+## m1 <- makeCacheMatrix(matrix(4:1, 2))
+## cacheSolve(m1)
+## [, 1][, 2]
+## [1,] - 0.5 1
+## [2,] 1.5 - 2
+## cacheSolve(m1)
+## getting cached data.
+##     [, 1][, 2]
+##  [1,] - 0.5 1
+##  [2,] 1.5 - 2
